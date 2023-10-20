@@ -1,3 +1,5 @@
-let umaString = 'Um texto';
+//               01234567
+let umaString = 'O rato roeu a roupa do rei de roma.';
 
-console.log(umaString);
+console.log(umaString.toUpperCase());
+console.log(umaString.toLowerCase());
