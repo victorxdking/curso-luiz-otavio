@@ -1,2 +1,6 @@
-import qualquerNome from './modulo1';
-console.log(qualquerNome(5, 5));
+import Pessoa, {nome, sobrenome} from './modulo1';
+
+const p1 = new Pessoa(nome, sobrenome);
+console.log(p1);
+
+
